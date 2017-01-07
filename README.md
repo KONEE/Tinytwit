@@ -17,3 +17,9 @@ Les fontions Importantes
  *PostFollower(): Permet aux utilisateurs d'authentification de suivre l'utilisateur spécifié dans le paramètre ID. 
 
  la méthode OAuth.popup() est utilisée pour déclencher un popup qui demande aux utilisateurs de se connecter avec leur compte Twitter. Si l'opération est réussie ,résolution la promesse en appelant deferred.resolve() . En cas d'erreur,rejet la promesse et passons l'objet d'erreur à la fonction de résolution. De même, la fonction getLatestTweets() fait un appel à l'API endpoint /1.1/statuses/home_timeline.json pour obtenir une liste de tweets. Une fois l'opération réussie, nous résolvons la promesse.tout comme getDirectMessage () fait appel à API /1.1/direct_messages.json 
+
+
+LIEN :
+plunker : https://plnkr.co/edit/?p=preview
+app menagemnt :https://apps.twitter.com/app/13262282
+oauth.oi : https://oauth.io/dashboard/app/w3yreiP-grykyse7b54PHdNxDSk/twitter
